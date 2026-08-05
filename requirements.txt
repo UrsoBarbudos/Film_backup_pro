@@ -1,0 +1,6 @@
+psutil
+PySide6
+pyinstaller
+requests
+ijson
+pytest

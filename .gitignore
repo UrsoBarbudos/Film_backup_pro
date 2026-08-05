@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+tempCodeRunnerFile.py
+tempCodeRunnerFile.sh
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+build/
+dist/
+dist_test/
+*.spec.bak
+
+# Logs
+*.log
+app_log.txt
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# PyInstaller
+*.manifest
+*.spec.bak
+
+# Settings files (contain sensitive data)
+.film_backup_pro_settings.json
+film_backup_pro_settings.json
+*settings*.json
+
+# Local development files (not included in build, but kept locally)
+local_notes.md
+dev_notes.md
+work_notes.md
+*.local.md
+
+# Cursor
+.cursor/
+
+# Additional virtual environments
+.venv_universal2/
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Qt Designer
+*.autosave
+
+# Runtime folders
+logs/
+reports/
+temp/
+tmp/
