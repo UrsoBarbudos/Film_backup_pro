@@ -58,7 +58,7 @@ work_notes.md
 # Cursor
 .cursor/
 
-# Additional virtual environments
+# Additional virtual environment
 .venv_universal2/
 
 # Python caches
@@ -69,9 +69,6 @@ work_notes.md
 # Coverage
 .coverage
 htmlcov/
-
-# Qt Designer
-*.autosave
 
 # Runtime folders
 logs/
