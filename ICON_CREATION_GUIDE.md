@@ -20,7 +20,7 @@
 Откройте Terminal и перейдите в корень проекта:
 
 ```bash
-cd /Users/egornikitin/Documents/Production/CODING/Film_backup_pro
+cd Film_backup_pro
 ```
 
 Создайте директорию для временных файлов:
@@ -77,7 +77,7 @@ rm -rf icon.iconset
 Вы можете выполнить все команды последовательно:
 
 ```bash
-cd /Users/egornikitin/Documents/Production/CODING/Film_backup_pro
+cd Film_backup_pro
 
 # Создание директории
 mkdir icon.iconset

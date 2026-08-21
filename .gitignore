@@ -55,6 +55,9 @@ dev_notes.md
 work_notes.md
 *.local.md
 
+# Internal UI design references
+design_reference/
+
 # Cursor
 .cursor/
 

@@ -18,7 +18,7 @@
 ### Шаг 1: Переход в директорию проекта
 
 ```bash
-cd /Users/egornikitin/Documents/Production/CODING/Film_backup_pro
+cd Film_backup_pro
 ```
 
 ### Шаг 2: Проверка версии Python
@@ -323,7 +323,7 @@ codesign --verify --verbose "dist/Dублёр.app"
 Если все зависимости уже установлены, можно использовать одну команду:
 
 ```bash
-cd /Users/egornikitin/Documents/Production/CODING/Film_backup_pro && \
+cd Film_backup_pro && \
 rm -rf build dist && \
 python3 -m PyInstaller --clean --noconfirm "Dублёр.spec" && \
 echo "✅ Сборка завершена! Приложение: dist/Dублёр.app"

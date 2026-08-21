@@ -2037,7 +2037,7 @@
 ## 2026-02-09 — Исправление ошибок в build.sh
 
 ### Проблемы
-1. Скрипт `build.sh` падал с ошибкой `PermissionError: [Errno 1] Operation not permitted` при попытке PyInstaller очистить кэш в `/Users/egornikitin/Library/Application Support/pyinstaller`. macOS блокировал удаление файлов из кэша из-за системных ограничений безопасности.
+1. Скрипт `build.sh` падал с ошибкой `PermissionError: [Errno 1] Operation not permitted` при попытке PyInstaller очистить кэш в `~/Library/Application Support/pyinstaller`. macOS блокировал удаление файлов из кэша из-за системных ограничений безопасности.
 2. Скрипт завершался с ошибкой из-за `set -e` при попытке удалить директории `build` и `dist`, если некоторые файлы не удалялись (например, `.DS_Store`).
 
 ### Выполнено
